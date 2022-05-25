@@ -1,0 +1,34 @@
+li{
+    font-weight: 500;
+    font-size: 16px;
+    /* background-color: #c4c4c4;
+    border-radius: 25px; */
+}
+
+li .active{
+    background-color: #c4c4c4;
+    width: auto;
+    border: none;
+    border-radius: 50px;
+    /* cursor: pointer;
+    transition: all 0.3s ease 0s; */
+}
+
+li :hover{
+    color: #c4c4c4;
+    font-size: 26;
+    font-weight: 700;
+}
+
+#pembayaran{
+    background-color: white;
+	margin: auto;
+	padding: 30px;
+	box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+	border-radius: 5px;
+}
+
+#pembayaran button{
+    margin-bottom: 85px;
+    width: 100px;
+}

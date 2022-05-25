@@ -1,0 +1,56 @@
+body {
+    background-image:url(images/Bg.png);
+
+    }
+    #main {
+    width : 1000px;
+    margin: 10px auto;
+    background:#FFF;
+    overflow:hidden;
+    }
+    #head1{
+    margin:10px;
+    padding: 10 50px 10px 10px;
+    background: url(banner1.jpg) no-repeat;
+    height: 250px;
+    }
+    #head2{
+    margin:10px;
+    margin-left:300px;
+    padding: 10 50px 10px 10px;
+    background: url(prof.png) no-repeat;
+    height: 250px;
+    }
+    #menu {
+    margin: 20px;
+    padding: 10px 10px 10px 5px;
+    font-size: 12pt;
+    font-family: Californian FB;
+    width:1150px;
+    background-position: top left;
+    }
+    a, a:link, a:visited, a:active{
+    font-family: Candara;
+    letter-spacing: 1px;
+    color:black;
+    }
+    
+    a:hover {
+    color:#00e020;
+    }
+    a.navi{
+    padding:5px;
+    text-decoration:none;
+    font-family:Californian FB;
+    font-size:14px;
+    color:black;
+    text-align:center;
+    width:100px;
+    background:#aedb58;
+    display:inline-block;
+    }
+    a.navi:hover{
+    color:white;
+    }
+    
+    

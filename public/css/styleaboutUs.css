@@ -1,0 +1,93 @@
+
+/*Body
+-----------------------------*/
+h1, h3 {
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team
+{
+    margin: 75px 0;
+}
+
+.jumbotron
+{
+    background-color: rgb(22, 49, 202);
+    color: white;
+}
+
+.jumbotron h1
+{
+    color: white;
+}
+
+h1 
+{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+h1:after
+{
+    content: '';
+    background: #333;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 5px auto;
+}
+.container{
+    width: 10px;
+    height: 20px;
+}
+#GH
+{
+    width: 1rem;
+    height: 1rem;
+}
+
+/* Footer
+-----------------------------*/
+#Footer {
+	background-color: #364652; 
+	color: #212227;
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#Footer i {
+	font-size: 2rem;
+	color:#F2F4F3;
+	padding: 1rem;
+	margin: 1rem auto 1rem;
+	transition: color 0.5s;
+    display: inline-block;
+    
+}
+
+#Footer i:hover {
+    color: #212227;
+    
+}
+
+#Footer >a:last-of-type{
+    color: #F2F4F3;
+    transition: color 0.5s;
+}
+
+#Footer >a:last-of-type:hover {
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+#Footer > p:first-of-type {
+    margin-top: 1.4em;
+}
